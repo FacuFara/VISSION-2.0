@@ -1,18 +1,1 @@
-﻿# VISSION-2.0
 
-VISSION Web
-Proyecto de sitio web para la marca VISSION, ropa estilo Y2K + Cybersigilism.
-Este sitio incluye 5 páginas principales desarrolladas con HTML + CSS + SCSS + Bootstrap.
-
-Estructura del proyecto
-index.html → Página principal con Navbar + Carousel Bootstrap
-productos.html → Página con grilla de productos (CSS Grid)
-contacto.html → Página con formulario de contacto (Flexbox)
-sobre-nosotros.html → Página con info de la marca
-preguntas.html → Página de preguntas frecuentes con FAQ animado
-Tecnologías usadas
-HTML5 semántico
-CSS3
-SCSS (con variables, mixins, nesting y animaciones)
-Bootstrap 5
-Git & GitHub
