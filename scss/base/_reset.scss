@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-secundario;
+  font-family: $fuente-principal;
+  overflow-x: hidden;
+}
+
+h1,h2,
+.titulos {
+  color: $acento;
+  font-size:$font-size-base;
+  margin: 22px;
+  text-align: center;
+  font-weight: 200;
+  font-family: $fuente-titulos;
+}
+
+p,
+.parrafos {
+  margin: 20px;
+  text-align: center;
+  color: $texto-suave;
+  font-size:$font-size-base;
+  font-weight: 200;
+}
