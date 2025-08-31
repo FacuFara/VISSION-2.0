@@ -1,4 +1,7 @@
 .footer-custom {
+  position : fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   background-color: #777777;
   padding: 10vh;
@@ -6,3 +9,5 @@
   color: $color-principal;
   font-family: $fuente-principal;
 }
+
+

@@ -10,18 +10,3 @@
     @media (min-width: 1025px) { @content; }
   }
 }
-
-/*
-@mixin button-style($bg-color, $text-color) {
-  background-color: $bg-color;
-  color: $text-color;
-  border: none;
-  padding: $spacing-sm $spacing-md;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-
-  &:hover {
-    background-color: darken($bg-color, 10%);
-  }
-}
