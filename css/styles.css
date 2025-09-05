@@ -1,16 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
   background-color: #f0f0f0;
-=======
-  background-color: #d1cdc6;
->>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
   font-family: "Quicksand", sans-serif;
   overflow-x: hidden;
 }
 
-<<<<<<< HEAD
 h1, h2,
 .titulos {
   color: #22142c;
@@ -20,23 +15,12 @@ h1, h2,
   font-weight: 300;
   font-family: "Bebas Neue", sans-serif;
   line-height: 1.2;
-=======
-h2,
-.titulos {
-  color: #22142c;
-  font-size: 70px;
-  margin: 22px;
-  text-align: center;
-  font-weight: 200;
-  font-family: "bebas-neue", sans-serif;
->>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
 }
 
 p,
 .parrafos {
   margin: 20px;
   text-align: center;
-<<<<<<< HEAD
   color: #353535;
   font-size: 1.1rem;
   font-weight: 400;
@@ -100,34 +84,6 @@ footer {
 }
 
 .navbar-custom {
-=======
-  color: #6b6b6b;
-  font-size: 40px;
-  font-weight: 200;
-}
-
-body {
-  background-color: #d1cdc6;
-  font-family: "Quicksand", sans-serif;
-  overflow-x: hidden;
-  padding-bottom: pb-5  ;
-}
-
-h1, h2, .titulos {
-  color: #22142c;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
-
-p, .parrafos {
-  color: #6b6b6b;
-  font-size: 1.2rem ;
-  text-align: center;
-}
-
-.navbar {
->>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -141,17 +97,12 @@ p, .parrafos {
 }
 .nav a {
   text-decoration: none;
-<<<<<<< HEAD
   color: #5f536b;
-=======
-  color: #0b0b0c;
->>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
   font-family: "Quicksand", sans-serif;
   font-size: 24px;
   font-weight: 650;
 }
 
-<<<<<<< HEAD
 .whatsapp-float {
   position: fixed;
   width: 60px;
@@ -189,15 +140,6 @@ p, .parrafos {
     bottom: 15px;
     right: 15px;
   }
-=======
-footer {
-  text-align: center;
-  background-color: #646464;
-  padding: 10vh;
-  font-size: 10px;
-  color: #181818;
-  font-family: "Quicksand", sans-serif;
->>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
 }
 
 .logo {
@@ -209,7 +151,6 @@ footer {
   border-radius: 50%;
 }
 
-<<<<<<< HEAD
 #carouselVission {
   max-width: 1000px;
   margin: 0 auto;
@@ -316,15 +257,6 @@ footer {
     height: 40px;
   }
 }
-=======
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
->>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
 .card {
   border: none;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s;
@@ -334,7 +266,6 @@ footer {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 .card .card-title {
-<<<<<<< HEAD
   color: #363636;
   font-weight: bold;
 }
@@ -811,10 +742,6 @@ footer {
   .producto-item.card .card-text {
     font-size: 0.9rem;
   }
-=======
-  color: #181818;
-  font-weight: bold;
->>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
 }
 
 /*# sourceMappingURL=styles.css.map */

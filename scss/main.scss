@@ -1,5 +1,4 @@
 // Base
-<<<<<<< HEAD
 @use './base/variables';
 @use './base/reset';
 @use './base/mixins';
@@ -16,20 +15,3 @@
 @use './pages/sobre-nosotros';
 @use './pages/preguntas';
 @use './pages/productos';
-=======
-@use 'base/variables';
-@use 'base/reset';
-@use 'base/mixins';
-
-// Componentes
-@use 'components/navbar';
-@use 'components/footer';
-@use 'components/animations';
-
-// Pages
-@use 'pages/home';
-@use 'pages/productos';
-@use 'pages/sobre-nosotros';
-@use 'pages/contacto';
-@use 'pages/preguntas';
->>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
