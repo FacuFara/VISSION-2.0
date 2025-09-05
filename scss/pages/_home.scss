@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 @use "../base/variables" as *;
 
+=======
+>>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
 .logo {
   width: 190px;
   height: auto;
@@ -9,6 +12,7 @@
   border-radius: 50%;
 }
 
+<<<<<<< HEAD
 // Carousel styles
 #carouselVission {
   max-width: 1000px;
@@ -136,6 +140,13 @@
       height: 40px;
     }
   }
+=======
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+>>>>>>> 822f9c6e420e77194e4b24f6a7eb3d6996ff55fd
 }
 
 .card {
