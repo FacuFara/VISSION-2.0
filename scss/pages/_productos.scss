@@ -1,0 +1,109 @@
+// Productos page styles
+.container .productos-section {
+  width: 100%;
+  max-width: none;
+}
+
+.productos-section {
+  &.grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+
+    // Responsive grid breakpoints
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 15px;
+      padding: 15px;
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    @media (min-width: 1025px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    @media (min-width: 1400px) {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px;
+    }
+  }
+}
+
+.producto-item {
+  &.card {
+    border: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover .card-img-top {
+      transform: scale(1.05);
+    }
+
+    .card-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .card-title {
+      color: #181818;
+      font-weight: bold;
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      color: #6b6b6b;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      flex-grow: 1;
+    }
+
+    // Responsive card adjustments
+    @media (max-width: 768px) {
+      .card-img-top {
+        height: 200px;
+      }
+      
+      .card-body {
+        padding: 15px;
+      }
+      
+      .card-title {
+        font-size: 1.1rem;
+      }
+      
+      .card-text {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

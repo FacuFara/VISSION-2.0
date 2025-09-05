@@ -1,0 +1,17 @@
+// Base
+@use './base/variables';
+@use './base/reset';
+@use './base/mixins';
+
+// Componentes
+@use './componentes/footer';
+@use './componentes/navbar';
+@use './componentes/whatsapp';
+
+
+// Pages
+@use './pages/home';
+@use './pages/contacto';
+@use './pages/sobre-nosotros';
+@use './pages/preguntas';
+@use './pages/productos';

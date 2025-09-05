@@ -1,0 +1,30 @@
+@use "variables" as *;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-secundario;
+  font-family: $fuente-principal;
+  overflow-x: hidden;
+}
+
+h1,h2,
+.titulos {
+  color: $acento;
+  font-size: $font-size-titulos;
+  margin: 22px;
+  text-align: center;
+  font-weight: 300;
+  font-family: $fuente-titulos;
+  line-height: 1.2;
+}
+
+p,
+.parrafos {
+  margin: 20px;
+  text-align: center;
+  color: $texto-suave;
+  font-size: $font-size-parrafos;
+  font-weight: 400;
+  line-height: 1.6;
+}

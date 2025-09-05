@@ -1,0 +1,66 @@
+@use "../base/variables" as *;
+
+.footer-custom {
+  position : fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #777777;
+  padding: 10vh;
+  font-size: 15px;
+  color: $color-principal;
+  font-family: $fuente-principal;
+}
+
+// General footer styles for all pages
+footer {
+  background-color: #343a40 !important;
+  color: white !important;
+  padding: 20px 0;
+  margin-top: auto;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  
+  .parrafos {
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+}
+
+// Sticky footer solution
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+// Page wrapper for proper flexbox behavior
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+}
+
+// Main content wrapper - this will grow to fill available space
+main {
+  flex: 1 0 auto;
+  padding-bottom: 20px;
+}
+
+// Footer will stick to bottom
+footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+// Ensure content doesn't get too close to footer
+.container {
+  margin-bottom: 20px;
+}
+
+
